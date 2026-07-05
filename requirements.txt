@@ -1,4 +1,6 @@
 streamlit
-plotly
 pandas
+plotly
 streamlit-gsheets
+gspread
+google-auth

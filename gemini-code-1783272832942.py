@@ -103,7 +103,6 @@ st.sidebar.info("💡 **GSheets Sync Info:** Data pulls directly via live connec
 # 4. HELPER UTILITIES FOR VISUALIZATION
 # -----------------------------------------------------------------------------
 def format_metric_value(val, particulars):
-    """Formats numeric elements neatly as currencies, percentages, or normal counts."""
     is_pct = "%" in particulars or "occupancy" in particulars.lower() or "conversion" in particulars.lower()
     is_curr = "₹" in particulars or "revenue" in particulars.lower() or "collection" in particulars.lower() or "billed" in particulars.lower()
     
